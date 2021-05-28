@@ -1,0 +1,21 @@
+{
+    "name": "ars42/hello-lib",
+    "description": "hello-lib",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ars",
+            "email": "arsnag03@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ars42\\HelloLib\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4"
+    }
+}
